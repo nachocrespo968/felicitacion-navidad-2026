@@ -6,6 +6,8 @@ import html2canvas from 'html2canvas';
 import Snowfall from './components/Snowfall';
 import MagicButton from './components/MagicButton';
 
+const AUDIO_URL = 'https://incompetech.com/music/royalty-free/mp3-royaltyfree/Silent%20Night.mp3';
+
 const App: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isAudioOn, setIsAudioOn] = useState(true);
