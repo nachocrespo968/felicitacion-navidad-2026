@@ -16,7 +16,7 @@ const App: React.FC = () => {
 
   // Textos íntegros (SIN MODIFICACIONES)
   const QUOTE = "“A veces lo peor que te pasa en la vida te pone directamente en el camino de las mejores cosas de tu vida”";
-  const INTRO_TEXT = "Sin duda 2025 ha sido un year en el que esto se ha hecho realidad para mi familia y para mí. Por ello, con el corazón lleno de gratitud, quiero compartir este mensaje contigo y desearte una Navidad llena de luz y un Año Nuevo transformador.";
+  const INTRO_TEXT = "Sin duda 2025 ha sido un año en el que esto se ha hecho realidad para mi familia y para mí. Por ello, con el corazón lleno de gratitud, quiero compartir este mensaje contigo y desearte una Navidad llena de luz y un Año Nuevo transformador.";
   const LIST_HEADER = "En este camino, hemos reafirmado que lo más valioso es:";
   const LIST_ITEMS = [
     "Ofrecer lo mejor de nosotros sin esperar nada a cambio.",
