@@ -30,8 +30,7 @@ const App: React.FC = () => {
   const CLOSING = "¡Feliz Navidad y un 2026 lleno de propósito y alegría!";
   const FOOTER_TAG = "HACIA UN 2026 CON PROPÓSITO";
 
-  const AUDIO_URL = "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Jingle%20Bells.mp3";
-  
+  const AUDIO_URL = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"; // Placeholder - Christmas music  
   useEffect(() => {
     
       audioRef.current.muted = !isAudioOn;
@@ -109,7 +108,6 @@ const App: React.FC = () => {
         loop 
         playsInline
         preload="auto"
-        crossOrigin="anonymous"
       />
 
       <div className="absolute inset-0 bg-gradient-to-b from-emerald-950/20 to-black/80 pointer-events-none" />
