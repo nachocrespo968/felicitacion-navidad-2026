@@ -30,9 +30,10 @@ const App: React.FC = () => {
   const CLOSING = "¡Feliz Navidad y un 2026 lleno de propósito y alegría!";
   const FOOTER_TAG = "HACIA UN 2026 CON PROPÓSITO";
 
-  const AUDIO_URL = "https://assets.mixkit.co/music/preview/mixkit-a-very-happy-christmas-897.mp3";
+  const AUDIO_URL = "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Jingle%20Bells.mp3";
+  
   useEffect(() => {
-    if (audioRef.current) {
+    
       audioRef.current.muted = !isAudioOn;
     }
   }, [isAudioOn]);
