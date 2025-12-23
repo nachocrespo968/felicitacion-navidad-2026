@@ -32,11 +32,9 @@ const App: React.FC = () => {
   const CLOSING = "¡Feliz Navidad y un 2026 lleno de propósito y alegría!";
   const FOOTER_TAG = "HACIA UN 2026 CON PROPÓSITO";
 
-  const AUDIO_URL = "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"; // Placeholder - Christmas music  
   useEffect(() => {
     
       audioRef.current.muted = !isAudioOn;
-    }
   }, [isAudioOn]);
 
   const toggleOpen = () => {
